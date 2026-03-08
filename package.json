@@ -1,0 +1,11 @@
+{
+  "name": "shorts-engine",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "pnpm --filter web dev",
+    "build": "pnpm --filter web build",
+    "pipeline:discover": "pnpm --filter pipeline discover",
+    "pipeline:analyze": "pnpm --filter pipeline analyze"
+  }
+}

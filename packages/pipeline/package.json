@@ -1,0 +1,14 @@
+{
+  "name": "pipeline",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "discover": "tsx src/discover.ts",
+    "analyze": "tsx src/analyze.ts"
+  },
+  "type": "module",
+  "dependencies": {
+    "tsx": "^4.19.3",
+    "typescript": "^5.9.3"
+  }
+}

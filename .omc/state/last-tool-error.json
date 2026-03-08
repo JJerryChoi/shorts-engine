@@ -1,0 +1,7 @@
+{
+  "tool_name": "Bash",
+  "tool_input_preview": "{\"command\":\"curl -s -H \\\"Authorization: Bearer $PAPERCLIP_API_KEY\\\" \\\"$PAPERCLIP_API_URL/api/agents/me\\\" | python3 -m json.tool 2>/dev/null || curl -s -H \\\"Authorization: Bearer $PAPERCLIP_API_KEY\\\" \\...",
+  "error": "Exit code 3",
+  "timestamp": "2026-03-08T12:09:36.469Z",
+  "retry_count": 1
+}
