@@ -29,3 +29,6 @@ npm-debug.log*
 # SQLite
 *.db
 *.sqlite
+
+# OMC internal state
+.omc/
