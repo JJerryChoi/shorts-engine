@@ -2,6 +2,9 @@
   "name": "shorts-engine",
   "version": "0.0.1",
   "private": true,
+  "pnpm": {
+    "onlyBuiltDependencies": ["esbuild", "sharp"]
+  },
   "scripts": {
     "dev": "pnpm --filter web dev",
     "build": "pnpm --filter web build",
